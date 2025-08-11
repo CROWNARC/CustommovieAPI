@@ -19,3 +19,4 @@ Simple serverless API that reads `movies_data.txt` and returns matching movies w
 - The parser is heuristic-based for the `movies_data.txt` formatting. If your file uses different patterns, tell me and I'll adapt the parser.
 - `preferred_watch` attempts to select a single best URL according to priority domains: `short.icu`, `zoro.rpmplay.xyz`, `dorex`, `play.zep`. It avoids Dailymotion when possible.
 - If you want automatic provider-ID -> URL mapping (e.g. `G1 (id)` -> `https://short.icu/id`), provide a few examples and I'll add strict constructors.
+
