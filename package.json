@@ -1,0 +1,12 @@
+{
+  "name": "movies-lookup-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/movie.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
